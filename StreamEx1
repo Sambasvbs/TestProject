@@ -1,0 +1,1 @@
+List<Integer> list = l.stream().filter(i->i%2==0).collect(Collector.toList());
